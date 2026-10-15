@@ -1,0 +1,17 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+out/
+cache/
+broadcast/
+circuits/build/
+circuits/keys/
+*.ptau
+*.zkey
+*.wtns
+*.r1cs
+*.wasm
+.DS_Store

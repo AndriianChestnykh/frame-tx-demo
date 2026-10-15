@@ -1,0 +1,9 @@
+node_modules/
+pnpm-lock.yaml
+out/
+cache/
+broadcast/
+circuits/build/
+circuits/keys/
+*.sol
+*.circom

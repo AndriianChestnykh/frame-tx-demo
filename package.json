@@ -1,0 +1,20 @@
+{
+  "name": "frame-account-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "scripts": {
+    "typecheck": "pnpm -r --if-present typecheck",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "contracts:build": "forge build",
+    "contracts:fmt": "forge fmt --check"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.0",
+    "typescript": "^5.9.0"
+  }
+}
